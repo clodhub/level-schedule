@@ -1,6 +1,6 @@
 {
   "name": "level-schedule",
-  "version": "0.8.0",
+  "version": "0.9.0",
   "title": "Level schedule",
   "description": "A list of levels that advance on a timer, with a rule for what happens after the last one (double, repeat or stop). Levels are {label, values}, so the same component schedules poker blinds, antes or any stepped stake.",
   "facilities": [
@@ -94,13 +94,17 @@
     {
       "reference": {
         "name": "ourapps-ae/level-schedule-class",
-        "version": "1.0.0",
-        "digest": "f86a8e16d00bdf3647b08ece950928a338a765eb6e7cf4e95dd6080ebeb8a9b3"
+        "version": "1.1.0",
+        "digest": "7abf5c786c688995e97df53544d9751c5ef22d6b410e7ad47ae7a622273a687b"
       },
       "descriptor": {
-        "format": 1,
+        "format": 2,
         "name": "ourapps-ae/level-schedule-class",
-        "version": "1.0.0",
+        "version": "1.1.0",
+        "title": "Level schedule",
+        "summary": "Timed levels with rising values, such as tournament blinds",
+        "category": "games/tournaments",
+        "presentation": "none",
         "provides": [
           {
             "type": "ae/level-schedule",
@@ -170,8 +174,8 @@
   "implements": [
     {
       "name": "ourapps-ae/level-schedule-class",
-      "version": "1.0.0",
-      "digest": "f86a8e16d00bdf3647b08ece950928a338a765eb6e7cf4e95dd6080ebeb8a9b3"
+      "version": "1.1.0",
+      "digest": "7abf5c786c688995e97df53544d9751c5ef22d6b410e7ad47ae7a622273a687b"
     }
   ],
   "upstream": [],
@@ -235,5 +239,11 @@
         "manual": "Without the package manager, install Node 26 from nodejs.org (the installer, or the zip or tar archive with its folder put first on PATH); on Linux also from the NodeSource repository."
       }
     ]
-  }
+  },
+  "release": {
+    "channel": "features",
+    "fixes": []
+  },
+  "images": [],
+  "vulnerabilityWaivers": []
 }
