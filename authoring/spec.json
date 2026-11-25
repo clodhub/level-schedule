@@ -1,6 +1,6 @@
 {
   "name": "level-schedule",
-  "version": "0.9.0",
+  "version": "0.10.0",
   "title": "Level schedule",
   "description": "A list of levels that advance on a timer, with a rule for what happens after the last one (double, repeat or stop). Levels are {label, values}, so the same component schedules poker blinds, antes or any stepped stake.",
   "facilities": [
@@ -49,7 +49,7 @@
     "server"
   ],
   "tools": {
-    "node": "26.5.0"
+    "node": "26.5"
   },
   "suites": [
     {
@@ -93,13 +93,13 @@
   "classes": [
     {
       "reference": {
-        "name": "ourapps-ae/level-schedule-class",
+        "name": "clodhub/level-schedule-class",
         "version": "1.1.0",
-        "digest": "7abf5c786c688995e97df53544d9751c5ef22d6b410e7ad47ae7a622273a687b"
+        "digest": "9a7fafef7da325bf5b7f6b9b8c7fffef78f2656853f54472d075ff519dd42e9a"
       },
       "descriptor": {
         "format": 2,
-        "name": "ourapps-ae/level-schedule-class",
+        "name": "clodhub/level-schedule-class",
         "version": "1.1.0",
         "title": "Level schedule",
         "summary": "Timed levels with rising values, such as tournament blinds",
@@ -137,7 +137,7 @@
           },
           {
             "path": "classes/level-schedule-class/level-schedule.json",
-            "digest": "ac03dde9dc1d0adb1def3f557c209a5841c06a46eadd0e1e28214cbb41f135e7"
+            "digest": "585eb376b1a72cded8f8afccc0637e24eb38e753f7c27941dd5f9c21a9a645b0"
           },
           {
             "path": "classes/level-schedule-class/runtime.mjs",
@@ -173,9 +173,9 @@
   ],
   "implements": [
     {
-      "name": "ourapps-ae/level-schedule-class",
+      "name": "clodhub/level-schedule-class",
       "version": "1.1.0",
-      "digest": "7abf5c786c688995e97df53544d9751c5ef22d6b410e7ad47ae7a622273a687b"
+      "digest": "9a7fafef7da325bf5b7f6b9b8c7fffef78f2656853f54472d075ff519dd42e9a"
     }
   ],
   "upstream": [],
@@ -195,10 +195,10 @@
     "owners": [
       "Level N Ltd"
     ],
-    "contact": "https://github.com/ourapps-ae/level-schedule/issues",
-    "repository": "https://github.com/ourapps-ae/level-schedule",
+    "contact": "https://github.com/clodhub/level-schedule/issues",
+    "repository": "https://github.com/clodhub/level-schedule",
     "updates": {
-      "source": "https://github.com/ourapps-ae/level-schedule/releases",
+      "source": "https://github.com/clodhub/level-schedule/releases",
       "strategy": "manual"
     }
   },

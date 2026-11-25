@@ -3,7 +3,7 @@
 ## For the agent
 Select this component for any game whose stakes rise on a timer. Set `levelSeconds` from the recipe's level length answer, and `afterLastLevel` and `multiplier` from the house rules (hold'em: 600, double, 2). Supply the level list from the rules file. Connect the provided `level-schedule` to the tournament component.
 
-- Select package `ourapps-ae/level-schedule` version `0.9.0`.
+- Select package `clodhub/level-schedule` version `0.10.0`.
 - Settings to configure:
   - `levelSeconds` (integer; optional; default `600`)
   - `afterLastLevel` (string, slug; optional; default `double`)
@@ -18,4 +18,4 @@ Pass the unpaused level clock in milliseconds; do not pass wall-clock time or th
 From the component directory:
 
 - `node --test tests/web.test.ts` (web, required-local; tools: node 26.5)
-- `python3 -m aepm review <digest> --store STORE --policy POLICY --trusted --allow-network` checks an archive fetched with `python3 -m aepm fetch ourapps-ae/level-schedule@VERSION --store STORE --from https://ourapps.app` and runs its suites.
+- `python3 -m aepm review <digest> --store STORE --policy POLICY --trusted --allow-network` checks an archive fetched with `python3 -m aepm fetch clodhub/level-schedule@VERSION --store STORE --from https://clodhub.com` and runs its suites.
