@@ -1,17 +1,17 @@
 {
-  "id": "clodhub.level-schedule",
+  "id": "com.clodhub.level-schedule",
   "name": "Level schedule",
   "kind": "component",
   "status": "example",
-  "package": "clodhub/level-schedule",
-  "version": "0.10.0",
+  "package": "pkg:clod/com.clodhub/level-schedule",
+  "version": "0.11.0",
   "ports": [
     {
       "id": "level-schedule",
       "name": "Level schedule",
       "direction": "output",
       "kind": "interface",
-      "type": "ae/level-schedule",
+      "type": "com.clodhub/level-schedule",
       "version": "1.0.0"
     }
   ],

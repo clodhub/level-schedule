@@ -1,6 +1,7 @@
 {
   "name": "level-schedule",
-  "version": "0.10.0",
+  "version": "0.11.0",
+  "sourceRevision": "19905b75dbea89fbfd424d67fe26c81aaed0e018",
   "title": "Level schedule",
   "description": "A list of levels that advance on a timer, with a rule for what happens after the last one (double, repeat or stop). Levels are {label, values}, so the same component schedules poker blinds, antes or any stepped stake.",
   "facilities": [
@@ -12,7 +13,7 @@
   "provides": [
     {
       "id": "level-schedule",
-      "type": "ae/level-schedule",
+      "type": "com.clodhub/level-schedule",
       "version": "1.0.0",
       "path": "interfaces/level-schedule.json"
     }
@@ -93,13 +94,13 @@
   "classes": [
     {
       "reference": {
-        "name": "clodhub/level-schedule-class",
+        "name": "pkg:clod/com.clodhub/level-schedule-class",
         "version": "1.1.0",
-        "digest": "9a7fafef7da325bf5b7f6b9b8c7fffef78f2656853f54472d075ff519dd42e9a"
+        "digest": "99e1541627ab2d88624b358c5e49a2a9a71b048113bf8680bffad3958bddcdbe"
       },
       "descriptor": {
-        "format": 2,
-        "name": "clodhub/level-schedule-class",
+        "format": 3,
+        "name": "pkg:clod/com.clodhub/level-schedule-class",
         "version": "1.1.0",
         "title": "Level schedule",
         "summary": "Timed levels with rising values, such as tournament blinds",
@@ -107,7 +108,7 @@
         "presentation": "none",
         "provides": [
           {
-            "type": "ae/level-schedule",
+            "type": "com.clodhub/level-schedule",
             "version": "1.0.0",
             "path": "classes/level-schedule-class/level-schedule.json",
             "modules": {
@@ -137,11 +138,11 @@
           },
           {
             "path": "classes/level-schedule-class/level-schedule.json",
-            "digest": "585eb376b1a72cded8f8afccc0637e24eb38e753f7c27941dd5f9c21a9a645b0"
+            "digest": "6d0850a98914c07b5d0191d4123944fd7ec3eb7734ec42f07b2bf1ac709dcfbb"
           },
           {
             "path": "classes/level-schedule-class/runtime.mjs",
-            "digest": "7440f3891614c423f74668cb5a2445fea58bbfa4d7c740c8e8a855d1d9300d43"
+            "digest": "1d85f0dae92d5c6c859cd48a4211a933718ae3e168554a2b00806183c4b661f0"
           }
         ],
         "verification": [
@@ -173,9 +174,9 @@
   ],
   "implements": [
     {
-      "name": "clodhub/level-schedule-class",
+      "name": "pkg:clod/com.clodhub/level-schedule-class",
       "version": "1.1.0",
-      "digest": "9a7fafef7da325bf5b7f6b9b8c7fffef78f2656853f54472d075ff519dd42e9a"
+      "digest": "99e1541627ab2d88624b358c5e49a2a9a71b048113bf8680bffad3958bddcdbe"
     }
   ],
   "upstream": [],
